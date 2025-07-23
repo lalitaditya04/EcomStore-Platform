@@ -120,9 +120,9 @@ npm run server       # Backend only (port 5000)
 
 ## 📞 Contact
 
-**Developer:** Your Name  
-**Email:** your.email@example.com  
-**GitHub:** [@yourusername](https://github.com/yourusername)
+**Developer:** Lalit Aditya M  
+**Email:** workharderlalit@mail.com  
+**GitHub:** [@lalitaditya04](https://github.com/lalitaditya04)
 
 ---
 
