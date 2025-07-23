@@ -1,0 +1,43 @@
+{
+  "name": "ecomstore",
+  "version": "1.0.0",
+  "description": "A modern, full-stack e-commerce platform built with React.js and Node.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "build": "cd client && npm run build",
+    "install-server": "cd server && npm install",
+    "install-client": "cd client && npm install",
+    "install-all": "npm run install-server && npm run install-client",
+    "heroku-postbuild": "npm run install-all && npm run build"
+  },
+  "keywords": [
+    "ecommerce",
+    "react",
+    "nodejs",
+    "mongodb",
+    "express",
+    "fullstack",
+    "javascript",
+    "web-application"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/ecomm-web.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/ecomm-web/issues"
+  },
+  "homepage": "https://github.com/yourusername/ecomm-web#readme",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
